@@ -1,0 +1,97 @@
+h1{
+    color: #CE2B26;
+    font-family: 'Coiny';
+    font-size: 5rem;
+}
+
+.h1kleiner{
+    font-size: 3rem;
+}
+
+h2{
+    font-family: 'coiny';
+    font-size: 40px;
+    color: #F2623A;
+}
+p{
+    font-family: 'Baloo Bhaijaan 2';
+    font-size: 1rem;
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo{
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px; /* Adjust spacing to match the provided header */
+    font-family: 'Baloo Bhaijaan 2';
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #118742; /* Adjust the color to match the provided header */
+    font-weight: bold;
+}
+
+body {
+    background-image: url(../img/Background_Landingpage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0px;
+}
+
+article{
+    background-color: rgba(255, 255, 255, 0.7); 
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    margin-left: 50px;
+    flex: 1;
+}
+
+.right{
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex: 0 0 auto;
+}
+
+.right img{
+    width: 100%;
+}
+
+.leftText{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.rightimage{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
