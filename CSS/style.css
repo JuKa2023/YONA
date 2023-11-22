@@ -5,7 +5,7 @@ h1{
 }
 
 .h1kleiner{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 h2{
@@ -13,6 +13,7 @@ h2{
     font-size: 40px;
     color: #F2623A;
 }
+
 p{
     font-family: 'Baloo Bhaijaan 2';
     font-size: 1rem;
@@ -28,6 +29,19 @@ header{
 }
 
 header .logo{
+    width: 50px;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .logo{
     width: 50px;
 }
 
@@ -82,6 +96,20 @@ article{
 
 .right img{
     width: 100%;
+    height: auto;
+}
+
+.leftimage img{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.righttext{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
 }
 
 .leftText{
@@ -94,4 +122,29 @@ article{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 50px;
+}
+
+
+.buttonHomepage{
+    font-family: 'Baloo Bhaijaan 2';
+    background-color: #8B593B;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: -4px 4px black;
+}
+
+
+.buttonHomepage:hover {
+    background-color: #F6B49B;
+    box-shadow: none;
 }
