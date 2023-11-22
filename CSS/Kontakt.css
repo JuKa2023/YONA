@@ -1,0 +1,10 @@
+form input:focus{
+color: aqua;
+}
+
+#sendenButton:hover{
+background-color: aqua;
+color: #000;
+}
+
+/* HTML Forms nachschauen auf w3shool
