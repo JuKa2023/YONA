@@ -2,6 +2,33 @@ form input:focus{
 color: aqua;
 }
 
+input{
+    padding: 15px;
+    margin: 10px;
+}
+
+.organisation{
+    width: 100%;
+}
+
+.inputboxorg{
+    width: 100%;   
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#kontaktformular{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Baloo Bhaijaan 2';
+}
+
 #sendenButton:hover{
 background-color: aqua;
 color: #000;

@@ -19,18 +19,52 @@
 <body>
 
     <section>
-<h1>Kontakt</h1>
+        <article>
+            <h1>Kontakt</h1>
+        </article>
+
+        <article class="form" id="kontaktformular">
+
 <form>
-  <label for="name">First name:</label>
-  <input type="text" id="name" name="fname" placeholder="John">
-  <label for="email">*E-Mail:</label><br>
-  <input type="email" id="email" name="email" placeholder="E-Mail" required>
-  <input type="checkbox" id="checkbox" required> 
-  <label for="newsletterCheckbox">*AGB aktzeptieren</label>
-  <input id="sendenButton" type="submit" value="senden">
+
+<div class="organisation">
+    <label for="name">Organisation:</label>
+    <input class="inputboxorg" type="text" id="organisation" name="organisation">
+</div>
+
+<div>
+    <label for="name">*Vorname:</label>
+    <input type="text" id="name" name="Sname" placeholder="Vornahme" required>
+    <label for="name">*Nachname:</label>
+    <input type="text" id="name" name="nachname" placeholder="Nachnahme" required>
+</div>
+
+<div>
+    <label for="email">*E-Mail:</label>
+    <input type="email" id="email" name="email" placeholder="E-Mail" required>
+    <label for="telefon">Telefonnummer:</label>
+    <input type="number" id="number" name="Telefonnummer">
+</div>
+
+<div>
+    <label for="name">Betreff:</label>
+    <input type="text" id="name" name="betreff">
+</div>
+
+<div>
+    <label for="name">Nachricht:</label>
+    <input type="text" id="name" name="nachricht">
+</div>
+
+<div>
+    <input type="checkbox" id="checkbox" required> 
+    <label for="newsletterCheckbox">*AGB aktzeptieren</label>
+    <input id="sendenButton" type="submit" value="senden">
+</div>
+
 </form> 
 
-
+    </article>
     </section>
     
 </body>
