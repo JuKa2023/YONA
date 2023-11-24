@@ -1,16 +1,16 @@
 h1{
     color: #CE2B26;
     font-family: 'Coiny';
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
-.h1kleiner{
-    font-size: 2rem;
+.smaller{
+    font-size: 50%;
 }
 
 h2{
     font-family: 'coiny';
-    font-size: 40px;
+    font-size: 2rem;
     color: #F2623A;
 }
 
@@ -74,23 +74,20 @@ body {
 
 article{
     background-color: rgba(255, 255, 255, 0.7); 
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .left{
-    margin-left: 50px;
+    margin: 20px;
     flex: 1;
 }
 
 .right{
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 20px;
     flex: 0 0 auto;
 }
 
@@ -102,26 +99,21 @@ article{
 .leftimage img{
     width: 100%;
     height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 20px;
 }
 
 .righttext{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 50px;
+    margin: 20px;
 }
 
 .leftText{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    margin: 20px;
 }
 
 .rightimage{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 50px;
+    width: 100%;
+    height: auto;
+    margin: 20px;
 }
 
 
@@ -147,4 +139,35 @@ article{
 .buttonHomepage:hover {
     background-color: #F6B49B;
     box-shadow: none;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    /* CSS rules for tablets */
+    article{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    /* CSS rules for desktops */
+    article{
+        display: flex;
+        flex-direction: row;
+    }
 }
