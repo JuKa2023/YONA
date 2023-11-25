@@ -40,6 +40,7 @@ header {
 
 header .logo {
     width: 50px;
+    padding-left:  20px;
 }
 
 footer {
@@ -70,9 +71,14 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #118742;
+    color: #F2623A;
     /* Adjust the color to match the provided header */
     font-weight: bold;
+}
+
+nav ul li a:hover {
+    color:#F6B49B;
+    /* Adjust the color to match the provided header */
 }
 
 body {
@@ -145,6 +151,42 @@ main {
     margin-right: 20px;
 }
 
+
+.innerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-left: 20px;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.navigation {
+    gap: 20px;
+    padding-right: 20px;
+    font-family: 'Baloo Bhaijaan 2';
+    Text-decoration: none;
+    color: #F2623A;
+    font-weight: bold;
+}
+
+.navigation:hover {
+    color: #F6B49B;
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
     .left {
@@ -165,26 +207,19 @@ main {
     .container {
         max-width: 720px;
     }
+    .order-1 {
+        order: 1;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
 }
 
 @media (min-width: 992px) {
     .container {
         max-width: 960px;
     }
-}
-
-.innerHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.order-1 {
-    order: 1;
-}
-
-.logo-link {
-    display: flex;
-    align-items: center;
-    gap: 40px;
 }
