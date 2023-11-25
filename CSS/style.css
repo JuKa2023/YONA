@@ -131,10 +131,6 @@ article{
     margin-left: auto;
 }
 
-main{
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
 /* Tablet */
 @media screen and (min-width: 768px) {
