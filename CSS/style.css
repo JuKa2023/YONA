@@ -2,6 +2,7 @@ h1{
     color: #CE2B26;
     font-family: 'Coiny';
     font-size: 3rem;
+    line-height: 130%;
 }
 
 .smaller{
@@ -12,6 +13,7 @@ h2{
     font-family: 'coiny';
     font-size: 2rem;
     color: #F2623A;
+    line-height: 130%;
 }
 
 p{
@@ -94,26 +96,6 @@ article{
 .right img{
     width: 100%;
     height: auto;
-}
-
-.leftimage img{
-    width: 100%;
-    height: auto;
-    margin: 20px;
-}
-
-.righttext{
-    margin: 20px;
-}
-
-.leftText{
-    margin: 20px;
-}
-
-.rightimage{
-    width: 100%;
-    height: auto;
-    margin: 20px;
 }
 
 
