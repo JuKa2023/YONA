@@ -1,0 +1,15 @@
+h1{
+    color: #F99F4E;
+}
+
+h2{
+  color: #f2b827;  
+}
+
+body{
+    background-image: url(../Img/BackgroundimageüBERUNS.png) ;
+}
+
+.flex-none{
+    display: block;
+}
