@@ -1,27 +1,35 @@
-h1{
+h1 {
     color: #CE2B26;
     font-family: 'Coiny';
     font-size: 3rem;
     line-height: 130%;
 }
 
-.smaller{
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+.smaller {
     font-size: 50%;
 }
 
-h2{
+h2 {
     font-family: 'coiny';
     font-size: 2rem;
     color: #F2623A;
     line-height: 130%;
 }
 
-p{
+p {
     font-family: 'Baloo Bhaijaan 2';
     font-size: 1rem;
 }
 
-header{
+header {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
     margin: 0px;
@@ -30,11 +38,11 @@ header{
     align-items: center;
 }
 
-header .logo{
+header .logo {
     width: 50px;
 }
 
-footer{
+footer {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
     margin: 0px;
@@ -43,7 +51,7 @@ footer{
     align-items: center;
 }
 
-footer .logo{
+footer .logo {
     width: 50px;
 }
 
@@ -55,13 +63,15 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 20px; /* Adjust spacing to match the provided header */
+    margin-left: 20px;
+    /* Adjust spacing to match the provided header */
     font-family: 'Baloo Bhaijaan 2';
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #118742; /* Adjust the color to match the provided header */
+    color: #118742;
+    /* Adjust the color to match the provided header */
     font-weight: bold;
 }
 
@@ -74,32 +84,31 @@ body {
     margin: 0px;
 }
 
-article{
-    background-color: rgba(255, 255, 255, 0.7); 
+article {
+    background-color: rgba(255, 255, 255, 0.7);
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    align-items: center;
 }
 
-.left{
+.left {
     margin: 20px;
-    flex: 1;
 }
 
-.right{
+.right {
     margin: 20px;
-    flex: 0 0 auto;
 }
 
-.right img{
+.right img {
     width: 100%;
     height: auto;
 }
 
 
-.buttonHomepage{
+.buttonHomepage {
     font-family: 'Baloo Bhaijaan 2';
     background-color: #8B593B;
     color: white;
@@ -110,7 +119,7 @@ article{
     margin: 4px 2px;
     text-align: center;
     text-decoration: none;
-    display:inline-block;
+    display: inline-block;
     font-size: 1rem;
     border: 2px solid black;
     border-radius: 5px;
@@ -138,6 +147,14 @@ main {
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+    .left {
+        width: 70%;
+    }
+
+    .right {
+        width: 30%;
+
+    }
 
     /* CSS rules for tablets */
     article {
@@ -156,11 +173,18 @@ main {
     }
 }
 
-/* Desktop */
-@media scr
-
 .innerHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
