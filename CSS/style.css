@@ -123,7 +123,7 @@ article{
     box-shadow: none;
 }
 
-.container{
+.container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -131,21 +131,36 @@ article{
     margin-left: auto;
 }
 
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+
     /* CSS rules for tablets */
-    article{
+    article {
         display: flex;
         flex-direction: row;
+    }
+
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
     }
 }
 
 /* Desktop */
-@media screen and (min-width: 1024px) {
-    /* CSS rules for desktops */
-    article{
-        display: flex;
-        flex-direction: row;
-    }
+@media scr
+
+.innerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
