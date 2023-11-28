@@ -87,7 +87,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    margin: 0px;
+    margin: 0;
 }
 
 article {
@@ -100,13 +100,10 @@ article {
     align-items: center;
 }
 
-.left {
+.left, .right {
     margin: 20px;
 }
 
-.right {
-    margin: 20px;
-}
 
 .right img {
     width: 100%;
@@ -220,5 +217,6 @@ main {
 
 @media (min-width: 992px){
     .container {
-        max-width: 100%;}
+        max-width: 960px;
+    }
 }
