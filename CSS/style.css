@@ -88,7 +88,6 @@ body {
     background-attachment: fixed;
     background-position: center;
     margin: 0px;
-    overflow-x: hidden;
 }
 
 article {
@@ -189,7 +188,7 @@ main {
 }
 
 /* Tablet */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
     .left {
         width: 70%;
     }
@@ -206,23 +205,20 @@ main {
     }
 
     .container {
-        max-width: 100%; /* Instead of fixed pixels, use 100% */
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+        max-width: 720px;
+
     .order-1 {
         order: 1;
     }
     h1 {
-        font-size: 4vw;
+        font-size: 6rem;
     }
     h2 {
-        font-size: 3vw;
+        font-size: 4rem;
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px){
     .container {
-        max-width: 100%;
-    }
+        max-width: 100%;}
 }
