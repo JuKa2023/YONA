@@ -88,6 +88,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 article {
@@ -205,21 +206,23 @@ main {
     }
 
     .container {
-        max-width: 720px;
+        max-width: 100%; /* Instead of fixed pixels, use 100% */
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .order-1 {
         order: 1;
     }
     h1 {
-        font-size: 6rem;
+        font-size: 4vw;
     }
     h2 {
-        font-size: 4rem;
+        font-size: 3vw;
     }
 }
 
 @media (min-width: 992px) {
     .container {
-        max-width: 960px;
+        max-width: 100%;
     }
 }
