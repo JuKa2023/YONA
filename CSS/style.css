@@ -94,6 +94,8 @@ article {
     background-color: rgba(255, 255, 255, 0.7);
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -136,7 +138,7 @@ article {
 }
 
 .container {
-    Width: calc ( 100% - 30px);
+    width:calc( 100% - 30px);
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -166,8 +168,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 3px;
-    padding-top: 20px;
-    padding-bottom: 20px;
 
 }
 
@@ -199,6 +199,8 @@ main {
     article {
         display: flex;
         flex-direction: row;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .container {

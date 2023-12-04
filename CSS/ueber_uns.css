@@ -13,3 +13,83 @@ body{
 .flex-none{
     display: block;
 }
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-item{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.flex-item:last-child{
+    margin-bottom: 0;
+}
+
+.objects{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px){
+    .left {
+        width: 70%;
+    }
+
+    .right {
+        width: 30%;
+
+    }
+
+    /* CSS rules for tablets */
+    article {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .flex-item{
+        display: flex;
+        width: 30%;
+        padding: 10px;
+        margin-right: 20px;
+    }
+
+    .flex-item:last-child{
+        margin-right: 0;
+    }
+
+    .container {
+        max-width: 720px;
+
+    .order-1 {
+        order: 1;
+    }
+    h1 {
+        font-size: 6rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+}
