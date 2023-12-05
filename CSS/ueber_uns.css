@@ -33,10 +33,36 @@ body{
 }
 
 .objects{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+.image-container {
+    position: relative;
+  }
+  
+  .image-container .image-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .image-container:hover .image-default {
+    display: none;
+  }
+  
+  .image-container:hover .image-hover {
+    display: block;
+  }
+
+.mitarbeiter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+}
 /* Tablet */
 @media screen and (min-width: 768px){
     .left {
