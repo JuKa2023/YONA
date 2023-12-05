@@ -1,26 +1,47 @@
-form input:focus{
-color: aqua;
-}
 
 .flex-none{
     display: block;
 }
 
-input{
-    padding: 15px;
-    margin: 10px;
-}
 
 .organisation{
     width: 100%;
 }
 
-.inputboxorg{
-    width: 100%;   
+
+body {
+    background-image: url(../img/hintergrund_Kontakt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
 }
 
+h1{
+    color: #233A59;
+}
 
+h2{
+    color: #4A6D8C;
+}
 
+h3{
+    color: #4A6D8C;
+}
+
+input{
+    background-color: #E0E7ED;
+    border-radius: 5px;
+    border-color: #E0E7ED;
+    padding: 15px;
+    margin: 10px;
+}
+
+.buttonHomepage:hover {
+    background-color: #C9D3EB;
+    box-shadow: none;
+}
 
 /* Tablet */
 @media screen and (min-width: 768px){
