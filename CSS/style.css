@@ -24,6 +24,13 @@ h2 {
     line-height: 130%;
 }
 
+h3{
+    font-family: 'coiny';
+    font-size: 1.5rem;
+    color: #F2623A;
+    line-height: 130%;
+}
+
 p {
     font-family: 'Baloo Bhaijaan 2';
     font-size: 1rem;
@@ -122,6 +129,7 @@ article {
     padding-left: 20px;
     padding-right: 20px;
     margin: 4px 2px;
+    margin-bottom: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -167,8 +175,8 @@ main {
 .paragraph {
     display: flex;
     flex-direction: column;
-    gap: 3px;
-
+    gap: 2px;
+    margin-bottom: 20px;
 }
 
 .navigation {
@@ -186,6 +194,13 @@ main {
 
 /* Tablet */
 @media screen and (min-width: 768px){
+    h1 {
+        font-size: 4rem;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
     .left {
         width: 70%;
     }
@@ -208,12 +223,6 @@ main {
 
     .order-1 {
         order: 1;
-    }
-    h1 {
-        font-size: 6rem;
-    }
-    h2 {
-        font-size: 4rem;
     }
 }
 

@@ -17,55 +17,88 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Coiny&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <section>
-        <article>
-            <h1>Kontakt</h1>
+    <main>
+        <article class="flex-none">
+            <div class="left">
+                <h1>Kontakt</h1>
+                <h2>Was können wir für dich Tun?</h2>
+            </div>
         </article>
 
-        <article class="form" id="kontaktformular">
+        <article>
+            <div class="left paragraph">
+                <h2>Kontaktiermöglichkeiten</h2>
+                <div class="paragraph">
+                    <h3>Email</h3>
+                    <p>Falls du Fragen oder Probleme bezüglich der FreshCard hast, darfst du uns gerne eine E-Mail senden.</p>
+                    <p>info@yona.ch</p>
+                </div>
+                <div class="paragraph">
+                    <h3>Telefon</h3>
+                    <p>Gerne darfst du uns auch telefonisch anrufen. Wir sind von Montag bis Freitag zwischen 9:00 und 18:00 Uhr erreichbar unter:</p>
+                    <p>+41 (0)31 724 98 XX</p>
+                </div>
+                <div class="paragraph">
+                    <h3>Adresse</h3>
+                    <p>Du bist herzlich dazu eingeladen, uns in unserem Büro besuchen zu kommen oder uns einen Brief zu senden. Hier findest du uns:</p>
+                    <p>YONA – young nature</p>
+                    <p>Musterstrasse 1</p>
+                    <p>3000 Bern</p>
+                </div>
+            </div>
+            <div class="right order-1">
+                <img src="img/female_characterfull_body eating_blueberries.png" alt="junge Frau die Blaubeeren isst">
+            </div>
+        </article>
 
-<form>
+        <article class="flex-none">
+            <div class="left">
+                <h2>Schicke uns doch eine Nachricht</h2>
+                <p>Hast du Fragen zu unseren Studentenrabatten? Interessierst du dich für unsere Partnergeschäfte? Möchtest du wissen, wie du YONA an deine Universität bringen kannst?</p>
+                <p>Lass es uns wissen! Wir sind hier, um zu helfen.</p>
+            </div>
+            <div>
+                <form>
 
-<div class="organisation">
-    <label for="name">Organisation:</label>
-    <input class="inputboxorg" type="text" id="organisation" name="organisation">
-</div>
+                    <div class="organisation">
+                        <label for="name">Organisation:</label>
+                        <input class="inputboxorg" type="text" id="organisation" name="organisation">
+                    </div>
 
-<div>
-    <label for="name">*Vorname:</label>
-    <input type="text" id="name" name="Sname" placeholder="Vorname" required>
-    <label for="name">*Nachname:</label>
-    <input type="text" id="name" name="nachname" placeholder="Nachname" required>
-</div>
+                <div>
+                    <label for="name">*Vorname:</label>
+                    <input type="text" id="name" name="Sname" placeholder="Vorname" required>
+                    <label for="name">*Nachname:</label>
+                    <input type="text" id="name" name="nachname" placeholder="Nachname" required>
+                </div>
 
-<div>
-    <label for="email">*E-Mail:</label>
-    <input type="email" id="email" name="email" placeholder="E-Mail" required>
-    <label for="telefon">Telefonnummer:</label>
-    <input type="number" id="number" name="Telefonnummer">
-</div>
+                <div>
+                    <label for="email">*E-Mail:</label>
+                    <input type="email" id="email" name="email" placeholder="E-Mail" required>
+                    <label for="telefon">Telefonnummer:</label>
+                    <input type="number" id="number" name="Telefonnummer">
+                </div>
 
-<div>
-    <label for="name">Betreff:</label>
-    <input type="text" id="name" name="betreff">
-</div>
+                <div>
+                    <label for="name">Betreff:</label>
+                    <input type="text" id="name" name="betreff">
+                </div>
 
-<div>
-    <label for="name">Nachricht:</label>
-    <input type="text" id="name" name="nachricht">
-</div>
+                <div>
+                    <label for="name">Nachricht:</label>
+                    <input type="text" id="name" name="nachricht">
+                </div>
 
-<div>
-    <input type="checkbox" id="checkbox" required> 
-    <label for="newsletterCheckbox">*AGB aktzeptieren</label>
-    <input id="sendenButton" type="submit" value="senden">
-</div>
+                <div>
+                    <input type="checkbox" id="checkbox" required> 
+                    <label for="newsletterCheckbox">*AGB aktzeptieren</label>
+                    <input class="buttonHomepage" type="submit" value="senden">
+                </div>
+            </form> 
+            </div>
+        </article>
 
-</form> 
-
-    </article>
-    </section>
+    </main>
     
 </body>
 </html>
