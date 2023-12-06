@@ -4,10 +4,12 @@
 }
 
 
-.organisation{
-    width: 100%;
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
-
 
 body {
     background-image: url(../img/hintergrund_Kontakt.png);
@@ -41,6 +43,13 @@ input{
 .buttonHomepage:hover {
     background-color: #C9D3EB;
     box-shadow: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Tablet */
@@ -79,6 +88,12 @@ input{
 
     .order-1 {
         order: 1;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
     }
 }
 
