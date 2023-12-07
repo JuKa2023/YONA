@@ -3,14 +3,6 @@
     display: block;
 }
 
-
-.flex{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-}
-
 body {
     background-image: url(../img/hintergrund_Kontakt.png);
     background-size: cover;
@@ -32,6 +24,11 @@ h3{
     color: #4A6D8C;
 }
 
+label{
+    font-family: 'Baloo Bhaijaan 2';
+    font-size: 1rem; 
+}
+
 input{
     background-color: #E0E7ED;
     border-radius: 5px;
@@ -50,6 +47,10 @@ input{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+}
+
+.eingabefeld{
+    width: calc(100% - 70px);
 }
 
 /* Tablet */
@@ -74,6 +75,8 @@ input{
         display: flex;
         flex-flow: row wrap;
     }
+
+    
 
     /* CSS rules for tablets */
     article {
