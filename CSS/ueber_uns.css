@@ -1,61 +1,72 @@
-h1{
+h1 {
     color: #F99F4E;
 }
 
-h2{
-  color: #f2b827;  
+h2 {
+    color: #f2b827;
 }
 
-body{
-    background-image: url(../Img/BackgroundimageüBERUNS.png) ;
+body {
+    background-image: url(../Img/BackgroundimageüBERUNS.png);
 }
 
-.flex-none{
+.flex-none {
     display: block;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
 }
 
-.flex-item{
+.flex-item {
     display: flex;
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-.flex-item:last-child{
+.flex-item:last-child {
     margin-bottom: 0;
 }
 
-.objects{
+.objects {
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .image-container {
     position: relative;
-  }
-  
-  .image-container .image-hover {
-    display: none;
+}
+
+.image-container img {
     position: absolute;
     top: 0;
     left: 0;
-  }
-  .image-container:hover .image-default {
-    display: none;
-  }
-  
-  .image-container:hover .image-hover {
-    display: block;
-  }
+    margin-top: -80px;
+    transition: opacity 0.5s ease;
+}
 
-.mitarbeiter{
+.image-container .image-default {
+    opacity: 1;
+}
+
+.image-container .image-hover {
+    opacity: 0;
+}
+
+.image-container:hover .image-default {
+    opacity: 0;
+}
+
+.image-container:hover .image-hover {
+    opacity: 1;
+}
+
+
+.mitarbeiter {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,15 +74,17 @@ body{
     padding: 10px;
     margin: 20px;
 }
+
 /* Tablet */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     h1 {
         font-size: 4rem;
     }
-    
+
     h2 {
         font-size: 2.5rem;
     }
+
     .left {
         width: 70%;
     }
@@ -92,21 +105,21 @@ body{
     .container {
         max-width: 720px;
 
-    .order-1 {
-        order: 1;
+        .order-1 {
+            order: 1;
+        }
     }
-}
 
-.flex{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-}
-
-@media (min-width: 992px){
-    .container {
-        max-width: 960px;
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
     }
-}
+
+    @media (min-width: 992px) {
+        .container {
+            max-width: 960px;
+        }
+    }
 }
