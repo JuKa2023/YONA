@@ -52,6 +52,30 @@ input {
     width: calc(100% - 70px);
 }
 
+.organisationtablet label {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.nametablet label {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.betrefftablet label {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.nachrichttablet label {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.checkboxtablet label {
+    margin-left: 10px;
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
     h1 {
@@ -74,9 +98,15 @@ input {
     form {
         display: flex;
         flex-flow: row wrap;
-        width: 100% - 60px;
+        align-content: center;
+        margin: 20px;
+        padding: 10px;
+        background-color: rgba(255, 255, 255,0.7);
     }
 
+    .container{
+        max-width: 720px;
+    }
 
 
     /* CSS rules for tablets */
@@ -102,9 +132,124 @@ input {
         }
     }
 
+
     @media (min-width: 992px) {
         .container {
             max-width: 960px;
+        }   
         }
-    }
+
+        form{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        #organisation{
+            max-width: 100%;
+            margin-right: 10px;
+        } 
+
+        #vorname{
+            max-width: 300px;
+            margin-right: 10px;
+        }
+
+        #nachname{
+            max-width: 300px;
+            margin-right: 10px;
+        }
+
+        #email{
+            max-width: 300px;
+        }
+
+        #number{
+            max-width: 300px;
+        }      
+
+        #betreff{
+            max-width: 100%;
+            margin-right: 10px;
+        }
+
+        #nachricht{
+            max-width: 100%;
+            margin-right: 10px;
+            height: 120px;
+        }
+
+        #checkbox{
+            margin-left: 126px;
+        }
+
+        .nametablet{
+            display: flex;
+            align-items: baseline;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            justify-content: center;
+        } 
+
+        .nametablet div {
+            display:flex;
+            align-items: baseline;
+            flex: 1 50%;
+        }
+
+        .nametablet label {
+            width: 130px;
+            margin-left: 10px;
+        }
+
+        .organisationtablet {
+            display:flex;
+            align-items: baseline;
+            flex: 1 100%;
+        }
+
+        .organisationtablet label {
+            width: 110px;
+            margin-left: 10px;
+        }
+
+
+        .betrefftablet {
+            display:flex;
+            align-items: baseline;
+            flex: 1 100%;
+        }
+
+        .betrefftablet label {
+            width: 110px;
+            margin-left: 10px;
+        }
+
+        .nachrichttablet {
+            display:flex;
+            align-items: baseline;
+            flex: 1 100%;
+        }
+
+        .nachrichttablet label {
+            width: 110px;
+            margin-left: 10px;
+        }
+
+        .checkboxtablet {
+            display:flex;
+            align-items: baseline;
+            flex: 1 100%;
+        }
+
+        .checkboxtablet label {
+            width: 70%;
+            margin-left: 10px;
+        }
+
+        .buttonhomepage{
+            margin-left: 60px;
+            
+        }
+
 }

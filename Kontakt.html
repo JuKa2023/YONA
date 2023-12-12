@@ -19,11 +19,11 @@
 </head>
 
 <body>
-    <main>
+    <main class="container">
         <article class="flex-none">
             <div class="left">
                 <h1>Kontakt</h1>
-                <h2>Was können wir für dich Tun?</h2>
+                <h2>Was können wir für dich tun?</h2>
             </div>
         </article>
 
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="right order-1">
-                <img src="img/female_characterfull_body eating_blueberries.png" alt="junge Frau die Blaubeeren isst">
+                <img src="img/female character eating blueberries .png" alt="junge Frau die Blaubeeren isst">
             </div>
         </article>
 
@@ -63,46 +63,52 @@
                     Möchtest du wissen, wie du YONA an deine Universität bringen kannst?</p>
                 <p>Lass es uns wissen! Wir sind hier, um zu helfen.</p>
             </div>
-            <div>
+            
                 <form>
 
-                    <div class="organisation">
+                    <div class="organisationtablet">
                         <label for="name">Organisation:</label>
                         <input class="eingabefeld" type="text" id="organisation" name="organisation">
                     </div>
 
-                    <div>
-                        <label for="name">*Vorname:</label>
-                        <input class="eingabefeld" type="text" id="name" name="Sname" placeholder="Vorname" required>
-                        <label for="name">*Nachname:</label>
-                        <input class="eingabefeld" type="text" id="name" name="nachname" placeholder="Nachname"
-                            required>
+                    <div class="nametablet">
+                        <div>
+                             <label for="name">*Vorname:</label>
+                             <input class="eingabefeld" type="text" id="vorname" name="Sname" placeholder="Vorname" required>
+                         </div>
+                         <div>
+                             <label for="name">*Nachname:</label>
+                             <input class="eingabefeld" type="text" id="nachname" name="nachname" placeholder="Nachname"required>
+                        </div>
+                        <div>
+                            <label for="email">*E-Mail:</label>
+                             <input class="eingabefeld" type="email" id="email" name="email" placeholder="E-Mail" required>
+                        </div>
+                        <div>
+                             <label for="telefon">Telefon:</label>
+                             <input class="eingabefeld" type="number" id="number" name="Telefonnummer">
+                        </div>
                     </div>
 
-                    <div>
-                        <label for="email">*E-Mail:</label>
-                        <input class="eingabefeld" type="email" id="email" name="email" placeholder="E-Mail" required>
-                        <label for="telefon">Telefonnummer:</label>
-                        <input class="eingabefeld" type="number" id="number" name="Telefonnummer">
-                    </div>
+    
 
-                    <div>
+                    <div class="betrefftablet">
                         <label for="name">*Betreff:</label>
-                        <input class="eingabefeld" type="text" id="name" name="betreff">
+                        <input class="eingabefeld" type="text" id="betreff" name="betreff">
                     </div>
 
-                    <div>
+                    <div class="nachrichttablet">
                         <label for="name">*Nachricht:</label>
-                        <input class="eingabefeld" type="text" id="name" name="nachricht">
+                        <input class="eingabefeld" type="text" id="nachricht" name="nachricht">
                     </div>
 
-                    <div>
+                    <div class="checkboxtablet">
                         <input type="checkbox" id="checkbox" required>
                         <label for="newsletterCheckbox">*AGB aktzeptieren</label>
                         <input class="buttonHomepage" type="submit" value="senden">
                     </div>
                 </form>
-            </div>
+           
         </article>
 
     </main>
