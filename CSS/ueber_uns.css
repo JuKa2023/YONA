@@ -24,6 +24,7 @@ body {
 .flex-item {
     display: flex;
     width: 100%;
+    height: auto;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -68,7 +69,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 33%;
     padding: 10px;
 }
 
