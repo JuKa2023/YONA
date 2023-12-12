@@ -14,15 +14,7 @@ body {
     display: block;
 }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-}
-
 .flex-item {
-    display: flex;
     width: 100%;
     height: auto;
     padding: 10px;
@@ -31,6 +23,13 @@ body {
 
 .flex-item:last-child {
     margin-bottom: 0;
+}
+
+.flex5 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 
 .objects {
@@ -69,9 +68,23 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 33%;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: calc(100%-30px);
 }
+
+.bild {
+    width: calc(100% - 30px);
+    padding: 20px;
+    height: auto;
+
+}
+
+.test1 {
+    padding: 20px;
+    margin-top: 20px;
+}
+
 
 /* Tablet */
 @media screen and (min-width: 768px) {
@@ -108,24 +121,38 @@ body {
         }
     }
 
-    .flex {
+    .image-container img {
         display: flex;
-        justify-content: space-between;
+        position: relative;
+        top: 0;
+        left: 0;
+        transition: opacity 1.0s ease;
+    }
+
+    .flex {
+        justify-content: center;
         flex-direction: row;
-        align-items: center;
+    }
+
+    .flex-item {
+        width: calc(33.33% - 30px);
+        margin: 5px;
+    }
+
+    .mitarbeiter {
+        width: calc(33.33% - 30px);
+        margin: 5px;
+    }
+
+    .flex5 {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     @media (min-width: 992px) {
         .container {
             max-width: 960px;
         }
-    }
-
-    .image-container img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-top: -80px;
-        transition: opacity 1.0s ease;
     }
 }
