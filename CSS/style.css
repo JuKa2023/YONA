@@ -5,6 +5,10 @@ h1 {
     line-height: 130%;
 }
 
+.flex-none {
+    display: block;
+}
+
 h1,
 h2,
 h3,
