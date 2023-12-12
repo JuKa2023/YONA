@@ -59,8 +59,8 @@ table {
     width: 150%;
 }
 
-#zutatenliste :first-child{
-    width:120.9px;
+#zutatenliste :first-child {
+    width: 120.9px;
 }
 
 label {
@@ -68,11 +68,22 @@ label {
     font-size: 1rem;
 }
 
-#topbutton{
+#topbutton {
+    display: flex;
     justify-content: flex-end;
 }
 
+#buttonWeitereRezepte {
+    display: flex;
+}
 
+input {
+    background-color: #B1A3D9;
+    border-radius: 5px;
+    border-color: #B1A3D9;
+    padding: 15px;
+    margin: 10px;
+}
 /* Tablet */
 @media screen and (min-width: 768px) {
     h1 {
