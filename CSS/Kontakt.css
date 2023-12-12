@@ -1,5 +1,4 @@
-
-.flex-none{
+.flex-none {
     display: block;
 }
 
@@ -12,24 +11,24 @@ body {
     margin: 0;
 }
 
-h1{
+h1 {
     color: #233A59;
 }
 
-h2{
+h2 {
     color: #4A6D8C;
 }
 
-h3{
+h3 {
     color: #4A6D8C;
 }
 
-label{
+label {
     font-family: 'Baloo Bhaijaan 2';
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
-input{
+input {
     background-color: #E0E7ED;
     border-radius: 5px;
     border-color: #E0E7ED;
@@ -42,26 +41,27 @@ input{
     box-shadow: none;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
 }
 
-.eingabefeld{
+.eingabefeld {
     width: calc(100% - 70px);
 }
 
 /* Tablet */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     h1 {
         font-size: 4rem;
     }
-    
+
     h2 {
         font-size: 2.5rem;
     }
+
     .left {
         width: 70%;
     }
@@ -74,9 +74,10 @@ input{
     form {
         display: flex;
         flex-flow: row wrap;
+        width: 100% - 60px;
     }
 
-    
+
 
     /* CSS rules for tablets */
     article {
@@ -89,20 +90,21 @@ input{
     .container {
         max-width: 720px;
 
-    .order-1 {
-        order: 1;
-    }
-    .flex{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        align-items: center;
-    }
-}
+        .order-1 {
+            order: 1;
+        }
 
-@media (min-width: 992px){
-    .container {
-        max-width: 960px;
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+        }
     }
-}
+
+    @media (min-width: 992px) {
+        .container {
+            max-width: 960px;
+        }
+    }
 }
