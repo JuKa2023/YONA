@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/rezepte.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
@@ -16,10 +17,194 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Coiny&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <article>
-        <h1>Rezeptideen</h1>
-        <h2>Was befindet sich in deiner Küche?</h2>
-    </article>
+    <main class="container">
+
+        <article class="flex-none">
+            <div class="left">
+                <h1>Rezeptideen</h1>
+                <h2>Was befindet sich in deiner Küche?</h2>
+            </div>
+        </article>
+
+        <article class="flex-none">
+            <div class="left paragraph">
+                <h2>Mit welchen Zutaten möchtest du kochen?</h2>
+                <h3>Suchst du nach einem bestimmten Menu?</h3>
+            </div>
+
+            <form>
+                <div class="left paragraph">
+                    <label for="name">Gib die Zutaten ein, mit welchen du kochen möchtest: </label>
+                    <input class="eingabefeld" type="text" id="name" name="betreff">
+                </div>
+
+                <div>
+                    <input class="buttonHomepage" id="topbutton"  type="submit" value="Rezepte finden">
+                </div>
+            </form>
+        </article>
+
+        <article class="flex-none">
+            <div class="left">
+                <h2>Deine Rezeptvorschläge</h2>
+            </div>
+
+            <article id="rezeptartikel">
+                <div class="Rezept" id="rezeptbild">
+                    <img src="Img/Firefly Salad White Beans Cherrytomatoes Carrots Basil.jpg"
+                        alt="Salat mit weissen Bohnen, Cherrytomaten und Basilikum">
+                    <input class="buttonHomepage" type="submit" value="so geht's">
+                </div>
+
+                <div class="right order-1" id="zutaten">
+                    <h3>Salat mit weissen Bohnen, Cherrytomaten und Basilikum</h3>
+
+                    <div>
+                        <h4>Zutaten</h4>
+                        <table id="zutatenliste2">
+
+                            <tr>
+                                <td>400 g</td>
+                                <td>gekochte Soissonsbohnen</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>rote Zwiebel</td>
+                            </tr>
+                            <tr>
+                                <td>300 g</td>
+                                <td>Cherrytomate</td>
+                            </tr>
+                            <tr>
+                                <td>1 Bund</td>
+                                <td>Basilikum</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Knoblauchzehen</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>grosse Karotten</td>
+                            </tr>
+                            <tr>
+                                <td>6 EL</td>
+                                <td>Olivenöl</td>
+                            </tr>
+                            <tr>
+                                <td>1 Prise</td>
+                                <td>Salz</td>
+                            </tr>
+                            <tr>
+                                <td>4 EL</td>
+                                <td>Apfelessig</td>
+                            </tr>
+                            <tr>
+                                <td>1 EL</td>
+                                <td>flüssiger Honig</td>
+                            </tr>
+                            <tr>
+                                <td>1 TL</td>
+                                <td>granulierter Cayennepfeffer</td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+                    <div>
+                        <h4>Zubereitungsdauer:</h4>
+                        <p>20 Minuten</p>
+                    </div>
+
+                </div>
+
+
+            </article>
+
+
+            <article id="rezeptartikel">
+                <div class="Rezept" id="rezeptbild">
+                    <img src="Img/Firefly Tagliatelle with Tomatoes.jpg" alt="Tagliatelle mit Tomaten">
+                    <input class="buttonHomepage" type="submit" value="so geht's">
+                </div>
+
+                <div class="right order-1" id="zutaten">
+                    <h3>Tagliatelle mit Tomaten, Zucchetti und Basilikum</h3>
+
+                    <div>
+                        <h4>Zutaten</h4>
+                        <table id="zutatenliste">
+
+                            <tr>
+                                <td>350 g</td>
+                                <td>Tagliatelle</td>
+                            </tr>
+                            <tr>
+                                <td>1 Prise</td>
+                                <td>Salz</td>
+                            </tr>
+                            <tr>
+                                <td>500 g</td>
+                                <td>Tomaten, z.B. gelb, rot</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Knoblauchzehen</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>kleine Zucchetti</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Karotten</td>
+                            </tr>
+                            <tr>
+                                <td>2 EL</td>
+                                <td>Olivenöl</td>
+                            </tr>
+                            <tr>
+                                <td>1 Prise</td>
+                                <td>Salz</td>
+                            </tr>
+                            <tr>
+                                <td>wenig</td>
+                                <td>Pfeffer</td>
+                            </tr>
+                            <tr>
+                                <td>1/2 Bund</td>
+                                <td>Basilikum</td>
+                            </tr>
+                            <tr>
+                                <td>40 g</td>
+                                <td>Parmesan</td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+                    <div>
+                        <h4>Zubereitungsdauer:</h4>
+                        <p>25 Minuten</p>
+                    </div>
+
+                </div>
+
+
+            </article>
+
+            <div class="left">
+                <input class="buttonHomepage" type="submit" value="weitere Rezepte">
+            </div>
+
+        </article>
+    </main>
+
+
+
+
 </body>
+
 </html>
