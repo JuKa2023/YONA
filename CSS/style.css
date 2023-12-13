@@ -120,10 +120,15 @@ article {
 
 
 .right img {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
+.centerimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .buttonHomepage {
     font-family: 'Baloo Bhaijaan 2';
@@ -222,6 +227,10 @@ main {
     .right {
         width: 30%;
 
+    }
+
+    .right img {
+        width: 100%;
     }
 
     /* CSS rules for tablets */
