@@ -10,12 +10,51 @@ body {
     background-image: url(../Img/BackgroundimageüBERUNS.png);
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    /* Adjust spacing to match the provided header */
+    font-family: 'Baloo Bhaijaan 2';
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F99F4E;
+    /* Adjust the color to match the provided header */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #F2B827;
+    /* Adjust the color to match the provided header */
+}
+
+.navigationueber {
+    gap: 20px;
+    padding-right: 20px;
+    font-family: 'Baloo Bhaijaan 2';
+    Text-decoration: none;
+    color: #F99F4E;
+    font-weight: bold;
+    font-size: 0.6rem;
+}
+
+.navigationueber:hover {
+    color: #F2B827;
+}
+
 .flex-none {
     display: block;
 }
 
 .flex-item {
-    width: 100%;
+    width: calc(100% - 30px);
     height: auto;
     padding: 10px;
     margin-bottom: 20px;
@@ -37,9 +76,6 @@ body {
     padding-right: 15px;
 }
 
-.image-container {
-    position: relative;
-}
 
 .image-container img {
     position: relative;
@@ -85,13 +121,27 @@ body {
     margin-top: 20px;
 }
 
-.namemit{
+.namemit {
     font-size: 1rem;
 }
 
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+    .navigationueber {
+        gap: 20px;
+        padding-right: 20px;
+        font-family: 'Baloo Bhaijaan 2';
+        Text-decoration: none;
+        color: #F99F4E;
+        font-weight: bold;
+        font-size: 0.6rem;
+    }
+
+    .navigationueber:hover {
+        color: #F2B827;
+    }
+
     h1 {
         font-size: 4rem;
     }
@@ -109,7 +159,7 @@ body {
 
     }
 
-    .namemit{
+    .namemit {
         font-size: 1.5rem;
     }
 
@@ -157,10 +207,24 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
     }
+}
 
-    @media (min-width: 992px) {
-        .container {
-            max-width: 960px;
-        }
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .navigationueber {
+        gap: 20px;
+        padding-right: 20px;
+        font-family: 'Baloo Bhaijaan 2';
+        Text-decoration: none;
+        color: #F99F4E;
+        font-weight: bold;
+        font-size: 0.6rem;
+    }
+
+    .navigationueber:hover {
+        color: #F2B827;
     }
 }

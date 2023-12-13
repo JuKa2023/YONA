@@ -63,10 +63,6 @@ footer {
     align-items: center;
 }
 
-footer .logo {
-    width: 50px;
-}
-
 nav ul {
     list-style: none;
     padding: 0;
@@ -264,10 +260,10 @@ main {
             color: #F6B49B;
         }   
     }
+}
 
-    @media (min-width: 992px) {
-        .container {
-            max-width: 960px;
-        }
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
     }
 }
