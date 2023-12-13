@@ -35,7 +35,7 @@ nav ul li a:hover {
     /* Adjust the color to match the provided header */
 }
 
-.navigation{
+.navigation {
     gap: 20px;
     padding-right: 20px;
     font-family: 'Baloo Bhaijaan 2';
@@ -125,10 +125,23 @@ nav ul li a:hover {
     font-size: 1rem;
 }
 
+.adresse {
+    gap: 20px;
+    padding-right: 20px;
+    font-family: 'Baloo Bhaijaan 2';
+    Text-decoration: none;
+    color: #F99F4E;
+    font-weight: bold;
+    font-size: 0.6rem;
+}
+
+.adresse:hover {
+    color: #F2B827;
+}
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-    .navigation {
+    .adresse {
         gap: 20px;
         padding-right: 20px;
         font-family: 'Baloo Bhaijaan 2';
@@ -138,7 +151,7 @@ nav ul li a:hover {
         font-size: 1.5rem;
     }
 
-    .navigation:hover {
+    .adresse:hover {
         color: #F2B827;
     }
 
@@ -207,24 +220,24 @@ nav ul li a:hover {
         flex-direction: row;
         flex-wrap: wrap;
     }
-}
 
-@media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-
-    .navigation{
+    .navigation {
         gap: 20px;
         padding-right: 20px;
         font-family: 'Baloo Bhaijaan 2';
         Text-decoration: none;
         color: #F99F4E;
         font-weight: bold;
-        font-size: 0.6rem;
+        font-size: 1.5rem;
     }
 
     .navigation:hover {
         color: #F2B827;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
     }
 }

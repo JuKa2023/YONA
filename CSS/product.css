@@ -5,6 +5,13 @@ h1 {
     line-height: 130%;
 }
 
+h12 {
+    color: green;
+    font-family: 'Coiny';
+    font-size: 2.5rem;
+    line-height: 130%;
+}
+
 h1,
 h2,
 h3,
@@ -20,14 +27,21 @@ p {
 h2 {
     font-family: 'coiny';
     font-size: 2rem;
-    color: greenyellow;
+    color: #92c53e;
     line-height: 130%;
 }
 
 h3{
     font-family: 'coiny';
     font-size: 1.5rem;
-    color: #F2623A;
+    color: green;
+    line-height: 130%;
+}
+
+h4{
+    font-family: 'coiny';
+    font-size: 1rem;
+    color: #87c540;
     line-height: 130%;
 }
 
@@ -96,7 +110,7 @@ nav ul li a:hover {
 }
 
 body {
-    background-image: url(../img/Background_Landingpage.png);
+    background-image: url(../img/background_karte.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -160,7 +174,7 @@ article {
 
 
 .buttonHomepage:hover {
-    background-color: #F6B49B;
+    background-color: #c9e08b;
     box-shadow: none;
 }
 
@@ -208,11 +222,18 @@ main {
 
 .text2 {
     width: 50%;
-    margin: 20px;
+    margin-right: 5rem;
+    margin-top: 2rem;
 }
 
-.aufzaehlung {
+.titel3 {
+    display: flex;
+    justify-content: center;
+}
 
+.titel4 {
+    display: flex;
+    justify-content: center;
 }
 
 #container1 {
@@ -223,23 +244,105 @@ main {
 #container2 {
     display: flex;
     flex-direction: row;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 #container3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 2rem;
 }
 
-#button1 {
-    width: 50%;
-    margin: 20px;
+#container4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#container6 {
+    display: flex;
+    flex-direction: column;
+}
+
+#container7 {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
+#Rating1 {
+    display: flex;
+    color: #87c540;
+    justify-content: center;
+}
+
+#Rating2 {
+    display: flex;
+    color: #87c540;
+    justify-content: center;
+}
+
+#articlesophie {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: 2rem;
+}
+
+#articlejonas {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: 2rem;
+}
+
+#youngnature {
+    display: flex;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.Migros {
+    margin-right: 9rem;
+    margin-left: -6rem;
+}
+
+
+
+.Sophie {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.Jonas {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.ratings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#button1 {
+    width: 30%;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
 #button2 {
-    width: 50%;
-    margin: 20px;
+    width: 30%;
     justify-content: center;
 }
 
@@ -255,6 +358,13 @@ main {
 .navigation:hover {
     color: #F6B49B;
 }
+
+
+
+
+
+
+
 
 /* Tablet */
 @media screen and (min-width: 768px){
@@ -282,25 +392,6 @@ main {
 
     }
 
-    /* CSS rules for tablets */
-    article {
-        display: flex;
-        flex-direction: row;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+    
 
-    .container {
-        max-width: 720px;
-
-    .order-1 {
-        order: 1;
-    }
-}
-
-@media (min-width: 992px){
-    .container {
-        max-width: 960px;
-    }
-}
 }
