@@ -15,7 +15,7 @@ body {
 }
 
 .flex-item {
-    width: 100%;
+    width: calc(100% - 30px);
     height: auto;
     padding: 10px;
     margin-bottom: 20px;
@@ -37,9 +37,6 @@ body {
     padding-right: 15px;
 }
 
-.image-container {
-    position: relative;
-}
 
 .image-container img {
     position: relative;
@@ -85,7 +82,7 @@ body {
     margin-top: 20px;
 }
 
-.namemit{
+.namemit {
     font-size: 1rem;
 }
 
@@ -109,7 +106,7 @@ body {
 
     }
 
-    .namemit{
+    .namemit {
         font-size: 1.5rem;
     }
 
