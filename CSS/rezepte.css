@@ -28,7 +28,6 @@ img {
 
 .buttonHomepage {
     margin-left: 20px;
-    margin-right: 600px;
 }
 
 #rezeptbild {
@@ -65,7 +64,7 @@ table {
 
 label {
     font-family: 'Baloo Bhaijaan 2';
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 #topbutton {
@@ -84,6 +83,38 @@ input {
     padding: 15px;
     margin: 10px;
 }
+
+.text{
+    width: 100%;
+    margin: 20px;
+}
+
+.eingabefeld{
+    width: 125%;
+    margin: 0px;
+}
+
+.smalltext{
+    font-size: 1rem;
+}
+
+.checkboxtablet {
+    display: flex;
+    justify-content: right;
+    margin-right: 60px
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    width: 960px;
+
+}
+
+#flex-item{
+    flex-grow: 0;
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
     h1 {
