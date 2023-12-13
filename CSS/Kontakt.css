@@ -36,6 +36,45 @@ input {
     margin: 10px;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    /* Adjust spacing to match the provided header */
+    font-family: 'Baloo Bhaijaan 2';
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #233A59;
+    /* Adjust the color to match the provided header */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4A6D8C;
+    /* Adjust the color to match the provided header */
+}
+
+.navigation {
+    gap: 20px;
+    padding-right: 20px;
+    font-family: 'Baloo Bhaijaan 2';
+    Text-decoration: none;
+    color: #233A59;
+    font-weight: bold;
+    font-size: 0.6rem;
+}
+
+.navigation:hover {
+    color: #4A6D8C;
+}
+
 .buttonHomepage:hover {
     background-color: #C9D3EB;
     box-shadow: none;
@@ -110,6 +149,16 @@ input {
     .right img{
         width: 100%;
         margin: none;
+    }
+
+    .navigation {
+        gap: 20px;
+        padding-right: 20px;
+        font-family: 'Baloo Bhaijaan 2';
+        Text-decoration: none;
+        color: #F2623A;
+        font-weight: bold;
+        font-size: 1.5rem;
     }
 
     form {
