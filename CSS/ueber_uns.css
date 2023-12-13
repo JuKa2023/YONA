@@ -47,19 +47,19 @@ body {
 }
 
 .image-container .image-default {
-    opacity: 1;
+    display: block;
 }
 
 .image-container .image-hover {
-    opacity: 0;
+    display: none;
 }
 
 .image-container:hover .image-default {
-    opacity: 0;
+    display: none;
 }
 
 .image-container:hover .image-hover {
-    opacity: 1;
+    display: block;
 }
 
 
@@ -85,6 +85,10 @@ body {
     margin-top: 20px;
 }
 
+.namemit{
+    font-size: 1rem;
+}
+
 
 /* Tablet */
 @media screen and (min-width: 768px) {
@@ -103,6 +107,10 @@ body {
     .right {
         width: 30%;
 
+    }
+
+    .namemit{
+        font-size: 1.5rem;
     }
 
     /* CSS rules for tablets */
