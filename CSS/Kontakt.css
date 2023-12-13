@@ -75,6 +75,20 @@ nav ul li a:hover {
     color: #4A6D8C;
 }
 
+.adresse {
+    gap: 20px;
+    padding-right: 20px;
+    font-family: 'Baloo Bhaijaan 2';
+    Text-decoration: none;
+    color: #233A59;
+    font-weight: bold;
+    font-size: 0.6rem;
+}
+
+.adresse:hover {
+    color: #4A6D8C;
+}
+
 .buttonHomepage:hover {
     background-color: #C9D3EB;
     box-shadow: none;
@@ -206,6 +220,20 @@ nav ul li a:hover {
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
+        }
+
+        .adresse {
+            gap: 20px;
+            padding-right: 20px;
+            font-family: 'Baloo Bhaijaan 2';
+            Text-decoration: none;
+            color: #233A59;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    
+        .adresse:hover {
+            color: #4A6D8C;
         }
 
         #organisation{
