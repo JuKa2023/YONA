@@ -106,7 +106,7 @@ nav ul li a:hover {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: calc(100%-30px);
+    width: calc(100% - 30px);
 }
 
 .bild {
