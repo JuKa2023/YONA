@@ -139,16 +139,28 @@ nav ul li a:hover {
     color: #F2B827;
 }
 
+.iframe-container{
+    display: none;
+}
 /* Tablet */
 @media screen and (min-width: 768px) {
-    .adresse {
-        gap: 20px;
-        padding-right: 20px;
-        font-family: 'Baloo Bhaijaan 2';
-        Text-decoration: none;
-        color: #F99F4E;
-        font-weight: bold;
-        font-size: 1.5rem;
+    .iframe-container {
+        display: block;
+        position:relative;
+        width: calc(100% - 20px);
+        padding-bottom:56.25%;
+        padding-top:30px;
+        height:0;
+        overflow:hidden;
+    }
+
+    .iframe-container iframe {
+        position:absolute;
+        padding-left: 20px;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
     }
 
     .adresse:hover {
