@@ -245,6 +245,7 @@ main {
         .order-1 {
             order: 1;
         }
+    }
 
     .navigation {
             gap: 20px;
@@ -259,11 +260,10 @@ main {
     .navigation:hover {
             color: #F6B49B;
         }   
-    }
-}
 
-@media (min-width: 992px) {
+    @media (min-width: 992px) {
     .container {
         max-width: 960px;
+    }
     }
 }
