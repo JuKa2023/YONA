@@ -31,7 +31,7 @@ label {
 input {
     background-color: #E0E7ED;
     border-radius: 5px;
-    border-color: #E0E7ED;
+    border: none;
     padding: 15px;
     margin: 10px;
 }
@@ -158,12 +158,11 @@ nav ul li a:hover {
     .right {
         width: 30%;
         margin: 0;
-
     }
 
     .right img{
         width: 100%;
-        margin: none;
+        margin: 0px;
     }
 
     .navigation {
@@ -203,9 +202,7 @@ nav ul li a:hover {
     .container {
         max-width: 720px;
 
-        .order-1 {
-            order: 1;
-        }
+
 
         .flex {
             display: flex;
@@ -213,7 +210,10 @@ nav ul li a:hover {
             flex-direction: row;
             align-items: center;
         }
+    }
 
+    .order-1 {
+        order: 1;
     }
 
         form{
