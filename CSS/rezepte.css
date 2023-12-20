@@ -155,6 +155,19 @@ input {
     box-shadow: none;
 }
 
+.navigation{
+    gap: 20px;
+    padding-right: 20px;
+    font-family: 'Baloo Bhaijaan 2';
+    Text-decoration: none;
+    color: #060412;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navigation:hover {
+    color: #CDC0D8;
+}  
 
 /* Tablet */
 @media screen and (max-width: 768px) {
