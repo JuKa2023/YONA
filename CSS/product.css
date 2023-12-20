@@ -101,13 +101,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #F2623A;
+    color: green;
     /* Adjust the color to match the provided header */
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #F6B49B;
+    color: #92c53e;
     /* Adjust the color to match the provided header */
 }
 
@@ -203,6 +203,20 @@ main {
 }
 
 
+.adresse {
+    gap: 20px;
+    padding-right: 20px;
+    font-family: 'Baloo Bhaijaan 2';
+    Text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.adresse:hover {
+    color: #92c53e;
+}
+
 
 
 
@@ -280,15 +294,7 @@ main {
 }
 
 
-.adresse {
-    gap: 20px;
-    padding-right: 20px;
-    font-family: 'Baloo Bhaijaan 2';
-    Text-decoration: none;
-    color: #233A59;
-    font-weight: bold;
-    font-size: 0.6rem;
-}
+
 
 
 
