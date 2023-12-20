@@ -280,7 +280,15 @@ main {
 }
 
 
-
+.adresse {
+    gap: 20px;
+    padding-right: 20px;
+    font-family: 'Baloo Bhaijaan 2';
+    Text-decoration: none;
+    color: #233A59;
+    font-weight: bold;
+    font-size: 0.6rem;
+}
 
 
 

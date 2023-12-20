@@ -34,24 +34,24 @@ img {
     width: 50%;
 }
 
-.table{
+.table {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.table1{
-    padding-top:7px;
+.table1 {
+    padding-top: 7px;
     padding-bottom: 7px;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
 }
 
-.flex-none{
+.flex-none {
     display: block;
     padding: 20px;
 }
@@ -84,7 +84,7 @@ table {
     padding-right: 50px;
 }
 
-#zutatenliste :second-child{
+#zutatenliste :second-child {
     width: 70%;
 }
 
@@ -93,7 +93,7 @@ table {
     padding-right: 50px;
 }
 
-#zutatenliste2 :second-child{
+#zutatenliste2 :second-child {
     width: 70%;
 }
 
@@ -201,91 +201,92 @@ input {
     }
 
     .rezept {
-        
+
         width: 100%;
         align-items: center;
         justify-content: space-between;
-        
+
     }
-    
-    .rezeptartikel{
+
+    .rezeptartikel {
         display: flex;
         flex-direction: column;
     }
 
-h1{
-    font-size: 2.5rem;
-}
+    h1 {
+        font-size: 2.5rem;
+    }
 
-h2 {
-    font-size: 1.5rem;
-    line-height: 130%;
-}
+    h2 {
+        font-size: 1.5rem;
+        line-height: 130%;
+    }
 
-h4{
-    font-size: 0.9rem;
-}
-
-
-label{
-    font-size: 0.75rem;
-}
+    h4 {
+        font-size: 0.9rem;
+    }
 
 
-.flex{
-    flex-direction: column;
-    align-items: center;
-}
+    label {
+        font-size: 0.75rem;
+    }
 
-#zutaten {
-    width: 100%;
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 60px;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
-.table{
-    width: 100%;
-}
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
 
-#zutatenliste :first-child {
-    width: 25%;
-    padding-right: 20px;
-}
+    #zutaten {
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
-#zutatenliste :second-child{
-    width: 30%;
-}
+    .table {
+        width: 100%;
+    }
 
-#zutatenliste2 :first-child {
-    width: 25%;
-    padding-right: 20px;
-}
+    #zutatenliste :first-child {
+        width: 25%;
+        padding-right: 20px;
+    }
 
-#zutatenliste2 :second-child{
-    width: 30%;
-}
+    #zutatenliste :second-child {
+        width: 30%;
+    }
 
-.smalltext{
-    font-size: 0.75rem;
-}
-td{
-    font-size: 0.75rem;
-}
+    #zutatenliste2 :first-child {
+        width: 25%;
+        padding-right: 20px;
+    }
 
-.buttonHomepage {
-    margin-left: 0px;
-}
+    #zutatenliste2 :second-child {
+        width: 30%;
+    }
 
-.table{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+    .smalltext {
+        font-size: 0.75rem;
+    }
 
-.table1{
-    padding-top: 7px;
-    padding-bottom: 2px;
-}
+    td {
+        font-size: 0.75rem;
+    }
+
+    .buttonHomepage {
+        margin-left: 0px;
+    }
+
+    .table {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .table1 {
+        padding-top: 7px;
+        padding-bottom: 2px;
+    }
 }
