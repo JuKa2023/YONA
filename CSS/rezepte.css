@@ -150,6 +150,11 @@ input {
     flex-grow: 0;
 }
 
+.buttonHomepage:hover {
+    background-color: #CDC0D8;
+    box-shadow: none;
+}
+
 
 /* Tablet */
 @media screen and (max-width: 768px) {
