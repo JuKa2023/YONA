@@ -24,10 +24,10 @@ img {
     width: 100%;
 }
 
-
 .buttonHomepage {
     margin-left: 20px;
 }
+
 
 .rezept {
     padding: 20px;
@@ -150,6 +150,7 @@ input {
     flex-grow: 0;
 }
 
+
 /* Tablet */
 @media screen and (max-width: 768px) {
     h1 {
@@ -221,6 +222,10 @@ h2 {
     line-height: 130%;
 }
 
+h4{
+    font-size: 0.9rem;
+}
+
 
 label{
     font-size: 0.75rem;
@@ -263,4 +268,24 @@ label{
     width: 30%;
 }
 
+.smalltext{
+    font-size: 0.75rem;
+}
+td{
+    font-size: 0.75rem;
+}
+
+.buttonHomepage {
+    margin-left: 0px;
+}
+
+.table{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table1{
+    padding-top: 7px;
+    padding-bottom: 2px;
+}
 }
