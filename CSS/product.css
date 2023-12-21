@@ -43,13 +43,13 @@ h4 {
 
 p {
     font-family: 'Baloo Bhaijaan 2';
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 
 ul {
     font-family: 'Baloo Bhaijaan 2';
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 
@@ -238,8 +238,8 @@ main {
 }
 
 #picright {
-    display: flex;
     justify-content: flex-end;
+    align-items: center center;
 }
 
 
@@ -429,6 +429,14 @@ main {
     justify-content: center;
 }
 
+#review1 {
+    font-size: 1rem;
+}
+
+#review2 {
+    font-size: 1rem;
+}
+
 
 
 
@@ -519,6 +527,8 @@ main {
 
     #picright {
         justify-content: center;
+        width: 30%;
+        height: auto;
     }
 
     #container2 {
