@@ -66,6 +66,15 @@ img {
     justify-content: space-between;
 }
 
+#zutaten2{
+    width: 50%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .rezeptartikel {
     margin-left: 20px;
     margin-right: 20px;
@@ -203,7 +212,6 @@ input {
             order: 1;
         }
     }
-
 
 }
 
