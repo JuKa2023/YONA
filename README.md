@@ -3,4 +3,10 @@
 
 # Dokumentation
 
-    ## 
+## Quellen und Methodik
+
+## Planung
+
+## Umsetzung
+
+## Herausforderungen
