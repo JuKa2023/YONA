@@ -11,7 +11,7 @@ Das Projekt YONA ist eine innovative Initiative, die im Rahmen des Moduls "Inter
 # Dokumentation
 ## Quellen und Methodik
 
-[ChatGPT](https://chat.openai.com)
+[ChatGPT](https://chat.openai.com) used a lot
 
 ## Planung
 Damit alle gleichzeitig am Projekt arbeiten konnten, wurden im vorhinein 6 html und css-files erstellt. Diese bestehen aus einem übergeordentem html und css-file (index.html / style.css), sowie jeweils einem seitenspezifischen.
