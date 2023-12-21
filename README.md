@@ -12,8 +12,11 @@ Das Projekt YONA ist eine innovative Initiative, die im Rahmen des Moduls "Inter
 
 ## Quellen und Methodik
 
+[ChatGPT](https://chat.openai.com)
+
 ## Planung
 
 ## Umsetzung
+Von Beginn an verwendeten wir GitHub für die Zusammenarbeit am Code. So konnte sichergestellt werden, dass alle an der aktuellen Version des Codes arbeiteten. Wenn Fehler aufgefallen sind, wurden diese der verantwortlichen Person vermittelt und konnten so möglichts zügig angepasst werden.
 
 ## Herausforderungen
