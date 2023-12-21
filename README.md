@@ -9,7 +9,6 @@ Das Projekt YONA ist eine innovative Initiative, die im Rahmen des Moduls "Inter
 - [@oliverbumann](https://github.com/oliverbumann)
 
 # Dokumentation
-
 ## Quellen und Methodik
 
 [ChatGPT](https://chat.openai.com)

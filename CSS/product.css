@@ -146,12 +146,10 @@ article {
     box-shadow: -4px 4px black;
 }
 
-.container {
+.containers {
     width: calc(100% - 30px);
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 main {
@@ -228,18 +226,17 @@ main {
 
 .Box1 {
     display: flex;
-    justify-content: center;
     flex-direction: row;
 }
 
 
-.left {
-    width: 150%;
+.links {
+    width: calc(60% - 40px);
+    padding: 20px;
 }
 
 #picright {
-    justify-content: flex-end;
-    align-items: center center;
+    width: 30%;
 }
 
 
@@ -269,12 +266,13 @@ main {
 #container2 {
     display: flex;
     flex-direction: row;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    justify-content: center;
+    width: 100%;
 }
 
 .card {
     width: 80%;
+    align-items: center;
 }
 
 .text2 {
@@ -518,16 +516,17 @@ main {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        width: 50%;
     }
 
-    .left {
+    .links {
         width: 100%;
         margin-bottom: 1rem;
     }
 
     #picright {
         justify-content: center;
-        width: 30%;
+        width: 40%;
         height: auto;
     }
 
@@ -610,6 +609,11 @@ main {
 
 /* Media Query für Bildschirmbreite bis 576px */
 @media screen and (max-width: 576px) {
+    .containers {
+        width: calc(100% - 30px);
+        text-align: left;
+    }
+    
     h1 {
         font-size: 2rem;
     }
@@ -634,23 +638,28 @@ main {
     .Box1 {
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: left;
     }
 
-    .left {
+    .links {
         width: 100%;
         margin-bottom: 1rem;
     }
 
     #picright {
         justify-content: center;
+        width: 100%;
     }
 
     #container2 {
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: left;
         margin-left: 0;
+    }
+
+    .containers{
+        width: calc(100% - 30px);
     }
 
     .card {
@@ -665,7 +674,7 @@ main {
     #container3 {
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: left;
         margin: 1rem;
     }
 
@@ -685,7 +694,7 @@ main {
     #container5 {
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: left;
         margin: 1rem;
     }
 
@@ -697,7 +706,7 @@ main {
     #container6 {
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: left;
     }
 
     #articlesophie,
