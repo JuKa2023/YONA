@@ -10,6 +10,11 @@ body {
     background-image: url(../img/BackgroundimageueBERUNS.png);
 }
 
+.text{
+    margin: 20px;
+    width: calc(100% - 40px);
+}
+
 nav ul {
     list-style: none;
     padding: 0;
