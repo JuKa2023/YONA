@@ -585,6 +585,10 @@ main {
     .Jonas {
         width: 100%;
     }
+
+    .adresse {
+        font-size: 1.2rem;
+    }
 }
 
 
@@ -695,5 +699,9 @@ main {
     .Sophie,
     .Jonas {
         width: 100%;
+    }
+
+    .adresse {
+        font-size: 0.6rem;
     }
 }
