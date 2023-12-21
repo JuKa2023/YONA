@@ -1,4 +1,4 @@
-/* Basic CSS Definitionen */
+/* Basic CSS Definitions */
 
 h1 {
     color: green;
@@ -89,20 +89,17 @@ nav ul {
 
 nav ul li {
     margin-left: 20px;
-    /* Adjust spacing to match the provided header */
     font-family: 'Baloo Bhaijaan 2';
 }
 
 nav ul li a {
     text-decoration: none;
     color: green;
-    /* Adjust the color to match the provided header */
     font-weight: bold;
 }
 
 nav ul li a:hover {
     color: #92c53e;
-    /* Adjust the color to match the provided header */
 }
 
 body {
@@ -132,7 +129,7 @@ article {
 
 .buttonHomepage {
     font-family: 'Baloo Bhaijaan 2';
-    background-color: #8B593B;
+    background-color: green;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -216,6 +213,17 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* Erste Box */
 
 .Box1 {
@@ -233,6 +241,18 @@ main {
     display: flex;
     justify-content: flex-end;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -294,6 +314,20 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Dritte Box */
 
 #container4 {
@@ -329,7 +363,17 @@ main {
 
 
 
-/* Box 4 */
+
+
+
+
+
+
+
+
+
+
+/* Vierte Box */
 
 #container6 {
     display: flex;
@@ -542,6 +586,13 @@ main {
         width: 100%;
     }
 }
+
+
+
+
+
+
+
 
 /* Media Query für Bildschirmbreite bis 576px */
 @media screen and (max-width: 576px) {
