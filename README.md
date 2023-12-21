@@ -7,6 +7,7 @@ Das Projekt YONA ist eine innovative Initiative, die im Rahmen des Moduls "Inter
 - [@Suenaf](https://github.com/Suenaf)
 - [@paulliebig](https://github.com/paulliebig)
 - [@oliverbumann](https://github.com/oliverbumann)
+- [@SophiaIseli](https://github.com/SophiaIseli)
 
 # Dokumentation
 ## Quellen und Methodik
