@@ -273,6 +273,7 @@ main {
 .card {
     width: 80%;
     align-items: center;
+    margin-left: 1rem;
 }
 
 .text2 {
@@ -481,16 +482,14 @@ main {
 
 
 
-
-
 /* Media Query für Bildschirmbreite bis 768px */
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 4rem;
     }
 
     h2 {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
 
     h3 {
@@ -506,28 +505,12 @@ main {
         font-size: 0.9rem;
     }
 
-    #titlefirst {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
     .Box1 {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width: 50%;
-    }
-
-    .links {
-        width: 100%;
-        margin-bottom: 1rem;
-    }
-
-    #picright {
-        justify-content: center;
-        width: 40%;
-        height: auto;
+        width: 90%;
+        margin: 0 auto;
     }
 
     #container2 {
@@ -538,6 +521,7 @@ main {
     }
 
     .card {
+        flex-direction: column;
         width: 100%;
     }
 
@@ -607,6 +591,16 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* Media Query für Bildschirmbreite bis 576px */
 @media screen and (max-width: 576px) {
     .containers {
@@ -615,7 +609,7 @@ main {
     }
     
     h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     h2 {
@@ -638,17 +632,20 @@ main {
     .Box1 {
         flex-direction: column;
         align-items: center;
-        text-align: left;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .links {
+        text-align: left;
         width: 100%;
         margin-bottom: 1rem;
     }
 
     #picright {
         justify-content: center;
-        width: 100%;
+        width: 106%;
     }
 
     #container2 {
@@ -664,6 +661,7 @@ main {
 
     .card {
         width: 100%;
+        margin-left: 0rem;
     }
 
     .text2 {
@@ -681,14 +679,13 @@ main {
     #youngnature {
         margin-right: 0;
         margin-bottom: 1rem;
-        justify-content: center;
+        align-items: center;
     }
 
     #button1,
     #button2 {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
+        width: 60%;
+        justify-content: center;
     }
 
     #container5 {
@@ -711,13 +708,26 @@ main {
 
     #articlesophie,
     #articlejonas {
-        width: 100%;
-        margin: 1rem;
+        width: 90%;
     }
 
     .Sophie,
     .Jonas {
         width: 100%;
+    }
+
+    .ratings {
+        flex-direction: column;
+    }
+
+    #review1,
+    #review2 {
+        margin: 1rem;
+    }
+
+    #sophietitle,
+    #jonastitle {
+        margin: 1rem;
     }
 
     .adresse {
