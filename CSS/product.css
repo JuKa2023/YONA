@@ -113,8 +113,8 @@ body {
 
 article {
     background-color: rgba(255, 255, 255, 0.7);
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
@@ -763,5 +763,16 @@ main {
         margin-top: 0px;
         margin-bottom: 0px;
         padding-left: 20px;
+    }
+
+    article {
+        background-color: rgba(255, 255, 255, 0.7);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
     }
 }
