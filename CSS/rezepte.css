@@ -217,6 +217,17 @@ input {
 }
 
 @media screen and (max-width: 576px) {
+    article {
+        background-color: rgba(255, 255, 255, 0.7);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
     .container {
         max-width: 960px;
     }
