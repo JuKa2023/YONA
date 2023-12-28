@@ -22,7 +22,7 @@ Die Vorlage in Figma war der Ausgangspunkt für das Design unseres Webprojekts. 
 Aus dem Dev Mode von Figma wurden erste CSS Vorschläge herausgenommen. Nach mehrfacher absprache haben wir uns dazu enstcheiden für die Codierung des CSS die Flexbox-Funktionalität, um ein responsives und flexibles Layout zu erstellen. Dies ermöglichte eine effiziente und präzise Anpassung des Layouts an verschiedene Bildschirmgrössen und -ausrichtungen.
 
 ### Problemlösung und Forschung
-Im Laufe der Entwicklung stiessen wir auf technische Herausforderungen. In solchen Fällen wandten wir uns an die Notizen aus dem Unterricht. Wenn uns das Unterrichtsmaterial nicht weiterhalf namen wir ChatGPT [ChatGPT](https://chat.openai.com/c/0c86d02e-cf73-4878-8671-4585188888fa) zur Hilfe um Lösungen für Code-Probleme zu finden und uns bei Unklarheiten in der Programmierung zu unterstützen. Dieser Ansatz trug wesentlich zur Effizienz und Qualität des Entwicklungsprozesses bei.
+Im Laufe der Entwicklung stiessen wir auf technische Herausforderungen. In solchen Fällen wandten wir uns an die Notizen aus dem Unterricht. Wenn uns das Unterrichtsmaterial nicht weiterhalf namen wir [ChatGPT](https://chat.openai.com/c/0c86d02e-cf73-4878-8671-4585188888fa) zur Hilfe um Lösungen für Code-Probleme zu finden und uns bei Unklarheiten in der Programmierung zu unterstützen. Dieser Ansatz trug wesentlich zur Effizienz und Qualität des Entwicklungsprozesses bei.
 
 ## Quellen
 Dieser Abschnitt listet die Hauptressourcen auf, die während des Projekts genutzt wurden.
@@ -31,7 +31,7 @@ Dieser Abschnitt listet die Hauptressourcen auf, die während des Projekts genut
 Die Vorlage in Figma diente als zentrale Designquelle. Sie ermöglichte es uns, ein visuell ansprechendes und funktionales Design zu erstellen.
 
 ### W3Schools
-Für die Erstellung des CSS-Codes verwendeten wir [CSS Flexbox auf W3Schools](https://www.w3schools.com/css/css3_flexbox.asp) als Quelle. Diese Ressource bot eine umfassende Einführung und Anleitung zur Verwendung von Flexboxen.
+Für die Erstellung des CSS-Codes verwendeten wir [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp) als Quelle. Diese Ressource bot eine umfassende Einführung und Anleitung zur Verwendung von Flexboxen.
 
 ### ChatGPT
 ChatGPT war eine wichtige Ressource für die Problemlösung und Forschung. Es half uns, Antworten auf technische Fragen zu finden und bot Lösungen, wenn wir auf Hindernisse stiessen.
