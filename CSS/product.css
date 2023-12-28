@@ -148,8 +148,7 @@ article {
 
 .containers {
     width: calc(100% - 30px);
-    padding-right: 15px;
-    padding-left: 15px;
+    margin: 20px;
 }
 
 main {
@@ -231,12 +230,22 @@ main {
 
 
 .links {
-    width: calc(60% - 40px);
-    padding: 20px;
+    width: 60%;
+    margin: 20px;
 }
 
 #picright {
-    width: 30%;
+    width: 40%;
+    margin: 20px;
+}
+
+.img {
+    width: 100%;
+}
+
+.box{
+    width: 100%;
+    margin: ;
 }
 
 
@@ -267,19 +276,22 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
+.bildli{
+    margin: 20px;
+    width: 50%;
+}
 .card {
-    width: 80%;
+    width: 100%;
     align-items: center;
-    margin-left: 1rem;
 }
 
 .text2 {
     width: 50%;
-    margin-right: 5rem;
-    margin-top: 2rem;
+    margin: 20px;
 }
 
 #container3 {
@@ -637,6 +649,10 @@ main {
         margin: 0 auto;
     }
 
+    .img {
+        width: 100%;
+    }
+
     .links {
         text-align: left;
         width: 100%;
@@ -645,7 +661,7 @@ main {
 
     #picright {
         justify-content: center;
-        width: 106%;
+        width: 100%%;
     }
 
     #container2 {
@@ -657,6 +673,7 @@ main {
 
     .containers{
         width: calc(100% - 30px);
+        margin: 20px;
     }
 
     .card {
