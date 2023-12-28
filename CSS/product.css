@@ -298,7 +298,12 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 2rem;
+    margin: 20px;
+}
+
+.bulltepoints ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #youngnature {
@@ -316,6 +321,10 @@ main {
 #button2 {
     width: 30%;
     justify-content: center;
+}
+
+.bulltepoints{
+    margin: 20px;
 }
 
 
