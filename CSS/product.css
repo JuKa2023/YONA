@@ -301,11 +301,6 @@ main {
     margin: 20px;
 }
 
-.bulltepoints ul {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
 #youngnature {
     display: flex;
     justify-content: end;
@@ -325,6 +320,11 @@ main {
 
 .bulltepoints{
     margin: 20px;
+}
+
+.bulltepoints ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -547,8 +547,8 @@ main {
     }
 
     .text2 {
-        width: 100%;
-        margin-right: 0;
+        width: calc(100% - 40px);
+        margin-right: 20px;
     }
 
     #container3 {
@@ -654,12 +654,12 @@ main {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width: 90%;
-        margin: 0 auto;
+        width: calc(100% - 40px)
+        margin: 20px;
     }
 
     .img {
-        width: 100%;
+        width: 60%;
     }
 
     .links {
@@ -670,7 +670,7 @@ main {
 
     #picright {
         justify-content: center;
-        width: 100%%;
+        width: 100%;
     }
 
     #container2 {
@@ -681,8 +681,12 @@ main {
     }
 
     .containers{
-        width: calc(100% - 30px);
+        width: calc(100% - 40px);
         margin: 20px;
+    }
+
+    .bildli{
+        width: calc(100% - 40px);
     }
 
     .card {
@@ -691,14 +695,13 @@ main {
     }
 
     .text2 {
-        width: 100%;
-        margin-right: 0;
+        width: calc(100% - 40px);
     }
 
     #container3 {
         flex-direction: column;
         align-items: center;
-        text-align: left;
+        text-align: center;
         margin: 1rem;
     }
 
@@ -758,5 +761,11 @@ main {
 
     .adresse {
         font-size: 0.6rem;
+    }
+
+    .bulltepoints ul {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 20px;
     }
 }
