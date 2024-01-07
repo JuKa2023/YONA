@@ -1,8 +1,7 @@
 - [YONA](#yona)
   - [Authors](#authors)
 - [Dokumentation](#dokumentation)
-  - [Quellen und Methodik](#quellen-und-methodik)
-    - [Methodik](#methodik)
+  - [Methodik](#methodik)
     - [Design-Entwicklung](#design-entwicklung)
     - [CSS-Codierung](#css-codierung)
     - [Problemlösung und Forschung](#problemlösung-und-forschung)
@@ -28,9 +27,7 @@ Das Projekt YONA ist eine innovative Initiative, die im Rahmen des Moduls "Inter
 
 # Dokumentation
 
-## Quellen und Methodik
-
-### Methodik
+## Methodik
 
 In diesem Abschnitt wird der Ansatz beschrieben, der für die Entwicklung des Webdesigns verwendet wurde, einschliesslich der Tools und Techniken, die für die Umsetzung des Projekts genutzt wurden.
 
