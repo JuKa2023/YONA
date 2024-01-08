@@ -73,7 +73,7 @@ Regelmässige Tests und Code-Reviews sicherten die Qualität und Effizienz des C
 
 ## Herausforderungen
 
-Da dies unsere erste programmierte Webseite war, war so ziemlich alles eine Herausforderung für uns.
+Da dies unsere erste programmierte Webseite ist, war so ziemlich alles eine Herausforderung für uns.
 
 Eine der grössten Herausforderungen in unserem Webdesign-Projekt war die Erstellung eines durchgängig responsiven Designs. Es galt sicherzustellen, dass alle Seiten der Webseite auf unterschiedlichen Geräten nicht nur funktional, sondern auch optisch konsistent sind. Die Einhaltung eines einheitlichen Erscheinungsbildes über alle Seiten hinweg erwies sich als anspruchsvoll, insbesondere bei der Anpassung an verschiedene Bildschirmgrössen und Auflösungen.
 
