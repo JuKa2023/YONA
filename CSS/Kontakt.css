@@ -215,134 +215,134 @@ nav ul li a:hover {
         order: 1;
     }
 
-        form{
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-        }
+     form{
+        display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+     }
 
-        .adresse {
-            gap: 20px;
-            padding-right: 20px;
-            font-family: 'Baloo Bhaijaan 2';
-            Text-decoration: none;
-            color: #233A59;
-            font-weight: bold;
-            font-size: 1.5rem;
-        }
+    .adresse {
+        gap: 20px;
+        padding-right: 20px;
+        font-family: 'Baloo Bhaijaan 2';
+        Text-decoration: none;
+        color: #233A59;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
     
-        .adresse:hover {
-            color: #4A6D8C;
-        }
+    .adresse:hover {
+        color: #4A6D8C;
+    }
 
-        #organisation{
-            max-width: 100%;
-            margin-right: 10px;
-        } 
+    #organisation{
+         max-width: 100%;
+         margin-right: 10px;
+     } 
 
-        #vorname{
-            max-width: 300px;
-            margin-right: 10px;
-        }
+    #vorname{
+        max-width: 300px;
+        margin-right: 10px;
+    }
 
-        #nachname{
-            max-width: 300px;
-            margin-right: 10px;
-        }
+    #nachname{
+        max-width: 300px;
+        margin-right: 10px;
+    }
 
-        #email{
-            max-width: 300px;
-        }
+    #email{
+        max-width: 300px;
+    }
 
-        #number{
-            max-width: 300px;
-        }      
+    #number{
+        max-width: 300px;
+    }      
 
-        #betreff{
-            max-width: 100%;
-            margin-right: 10px;
-        }
+    #betreff{
+         max-width: 100%;
+        margin-right: 10px;
+    }
 
-        #nachricht{
-            max-width: 100%;
-            margin-right: 10px;
-            height: 120px;
-        }
+    #nachricht{
+        max-width: 100%;
+        margin-right: 10px;
+        height: 120px;
+    }
 
-        #checkbox{
-            margin-left: 120px;
-            transform: scale(2);
-        }
+    #checkbox{
+        margin-left: 120px;
+        transform: scale(2);
+    }
 
-        .nametablet{
-            display: flex;
-            align-items: baseline;
-            align-content: flex-start;
-            flex-wrap: wrap;
-            justify-content: center;
-        } 
+    .nametablet{
+        display: flex;
+        align-items: baseline;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
 
-        .nametablet div {
-            display:flex;
-            align-items: baseline;
-            flex: 1 50%;
-        }
+    .nametablet div {
+        display:flex;
+        align-items: baseline;
+        flex: 1 50%;
+    }
 
-        .nametablet label {
-            width: 142px;
-            margin-left: 10px;
-        }
+    .nametablet label {
+        width: 142px;
+        margin-left: 10px;
+    }
 
-        .organisationtablet {
-            display:flex;
-            align-items: baseline;
-            flex: 1 100%;
-        }
+    .organisationtablet {
+        display:flex;
+        align-items: baseline;
+        flex: 1 100%;
+    }
 
-        .organisationtablet label {
-            width: 110px;
-            margin-left: 10px;
-        }
+    .organisationtablet label {
+        width: 110px;
+        margin-left: 10px;
+    }
 
 
-        .betrefftablet {
-            display:flex;
-            align-items: baseline;
-            flex: 1 100%;
-        }
+    .betrefftablet {
+        display:flex;
+        align-items: baseline;
+        flex: 1 100%;
+    }
 
-        .betrefftablet label {
-            width: 110px;
-            margin-left: 10px;
-        }
+    .betrefftablet label {
+        width: 110px;
+        margin-left: 10px;
+    }
 
-        .nachrichttablet {
-            display:flex;
-            align-items: start;
-            flex: 1 100%;
-        }
+    .nachrichttablet {
+        display:flex;
+        align-items: start;
+        flex: 1 100%;
+    }
 
-        .nachrichttablet label {
-            width: 110px;
-            margin-left: 10px;
-            align-self: center;
-        }
+    .nachrichttablet label {
+        width: 110px;
+        margin-left: 10px;
+        align-self: center;
+    }
 
-        .checkboxtablet {
-            display:flex;
-            align-items: baseline;
-            flex: 1 100%;
-        }
+    .checkboxtablet {
+        display:flex;
+        align-items: baseline;
+        flex: 1 100%;
+    }
 
-        .checkboxtablet label {
-            width: calc(100% - 258px);
-            margin-left: 10px;
-        }
+    .checkboxtablet label {
+        width: calc(100% - 258px);
+        margin-left: 10px;
+    }
 
-        .buttonhomepage{
-            margin-left: 60px;
+    .buttonhomepage{
+        margin-left: 60px;
             
-        }
+    }
 
 }
 
